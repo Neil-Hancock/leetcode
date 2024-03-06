@@ -34,7 +34,7 @@ class SolutionSubstring {
                 if (matchMap.values().parallelStream().mapToInt(Integer::intValue).sum() == 0) {
                     result.add(i);
                 }
-                }
+            }
             i++;
             previousList = subSplit;
         }
